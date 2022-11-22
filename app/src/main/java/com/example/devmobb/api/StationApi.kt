@@ -1,4 +1,4 @@
-package com.example.devmobb.adapter
+package com.example.devmobb.api
 
 import Station
 import retrofit2.Response

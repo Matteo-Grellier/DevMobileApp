@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">DevMobb</string>
+    <string name="app_name">Project_Dev_Mobile</string>
     <string name="title_bike">Bike</string>
-    <string name="title_pump">Pump</string>
+    <string name="title_pump">dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_detail_station">DetailStationActivity</string>
     <!-- Strings used for fragments for navigation -->

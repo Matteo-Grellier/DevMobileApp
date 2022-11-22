@@ -6,12 +6,11 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.devmobb.adapter.StationAdapter
-import com.example.devmobb.adapter.StationApi
+import com.example.devmobb.api.StationApi
 import com.example.devmobb.api.RetrofitHelper
 import com.example.devmobb.databinding.FragmentHomeBinding
 import kotlinx.coroutines.GlobalScope

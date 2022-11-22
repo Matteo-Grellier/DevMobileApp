@@ -29,3 +29,22 @@ data class Station (
         return "🚲${availableBikes} 📣${availableBikes} ✅${bikeStands}"
     }
 }
+
+var currentBusStopLocation: Location? = null
+var busStopSelected:BusStop? = null
+var allBusStop:List<BusStop>? = null
+
+data class BusStop (
+    val stop_id: String,
+    val stop_name: String,
+    val stop_coordinates: Double,
+    val latitude: Double,
+    val longitude: Double,
+){
+    fun toLocation(): Location {
+        val location = Location("")
+        location.latitude = latitude
+        location.longitude = longitude
+        return location
+    }
+}
